@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/docs.css" rel="stylesheet" />
+    <title>CSS</title>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Хедер-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html"> Главная </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../languages.html">
+                Список языков программирования
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Языки
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./html-lang.html"> HTML </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./css-lang.html"> CSS </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./kotlin-lang.html">
+                    Kotlin
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Содержимое-->
+    <div class="container-md">
+      <div class="row">
+        <h1>Язык программирования CSS</h1>
+      </div>
+      <div class="row row-cols-auto">
+        <div class="col">
+          <!--Ссылка с текстом-->
+          <a href="..\languages.html">Назад к списку</a>
+        </div>
+        <div class="col">
+          <!--Кнопка-->
+          <a class="btn btn-primary" href="..\languages.html" role="button">
+            Назад
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <h2>Краткое описание</h2>
+      </div>
+      <div class="row">
+        <p>
+          <a href="https://developer.mozilla.org/ru/docs/Glossary/CSS">CSS</a>
+          (Каскадные таблицы стилей) позволяет создавать великолепно выглядящие
+          веб-страницы, но как же это работает? Эта статья объясняет, что такое
+          CSS, с помощью простого примера синтаксиса, а также охватывает
+          некоторые ключевые термины о языке.
+        </p>
+      </div>
+      <h2>Пример исходного кода</h2>
+      <pre><code>
+        h1 { 
+            color: red; 
+            font-size: 5em; 
+        }
+    </code></pre>
+    </div>
+  </body>
+</html>

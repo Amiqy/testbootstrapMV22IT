@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/docs.css" rel="stylesheet" />
+    <title>Список языков программирования</title>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Хедер-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"> Главная </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./languages.html">
+                Список языков программирования
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Языки
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./langs/html-lang.html">
+                    HTML
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./langs/css-lang.html">
+                    CSS
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./langs/kotlin-lang.html">
+                    Kotlin
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Содержимое-->
+    <div class="container-md">
+      <div class="raw">
+        <h1>Языки программирования</h1>
+      </div>
+      <div class="raw">
+        <h2>Навигация в форме списка</h2>
+      </div>
+      <!--Группа списков-->
+      <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="list-group">
+            <a
+              href="./langs/html-lang.html"
+              class="list-group-item list-group-item-action list-group-item-warning"
+            >
+              HTML
+            </a>
+            <a
+              href="./langs/css-lang.html"
+              class="list-group-item list-group-item-action list-group-item-primary"
+            >
+              CSS
+            </a>
+            <a
+              href="./langs/kotlin-lang.html"
+              class="list-group-item list-group-item-action list-group-item-info"
+            >
+              Kotlin
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="raw">
+        <h2>Навигация в формате таблицы</h2>
+      </div>
+      <!--Таблицы-->
+      <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">HTML</th>
+                <td>
+                  <a href="./langs/html-lang.html" class="btn btn-warning">
+                    Подробнее
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">CSS</th>
+                <td>
+                  <a href="./langs/css-lang.html" class="btn btn-primary">
+                    Подробнее
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Kotlin</th>
+                <td>
+                  <a href="./langs/kotlin-lang.html" class="btn btn-info">
+                    Подробнее
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="raw">
+        <h2>Навигация в формате карточек</h2>
+      </div>
+      <!--Карточки-->
+      <div class="row">
+        <div class="col-sm-auto mb-3 mb-sm-0">
+          <div
+            class="card text-center border-warning mb-3"
+            style="width: 15rem"
+          >
+            <img
+              src="../images/317755_badge_html_html5_achievement_award_icon.svg"
+              class="card-img-top"
+              alt="html"
+            />
+            <div class="card-body">
+              <h1 class="card-title">HTML</h1>
+              <a href="./langs/html-lang.html" class="btn btn-primary">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-auto mb-3 mb-sm-0">
+          <div
+            class="card text-center border-primary mb-3"
+            style="width: 15rem"
+          >
+            <img
+              src="../images/317756_badge_css_css3_achievement_award_icon.svg"
+              class="card-img-top"
+              alt="css"
+            />
+            <div class="card-body">
+              <h1 class="card-title">CSS</h1>
+              <a href="./langs/css-lang.html" class="btn btn-primary">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-auto mb-3 mb-sm-0">
+          <div class="card text-center border-info mb-3" style="width: 15rem">
+            <img
+              src="../images/file_type_kotlin_icon_130487.svg"
+              class="card-img-top"
+              alt="kotlin"
+            />
+            <div class="card-body">
+              <h1 class="card-title">Kotlin</h1>
+              <a href="./langs/kotlin-lang.html" class="btn btn-primary">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

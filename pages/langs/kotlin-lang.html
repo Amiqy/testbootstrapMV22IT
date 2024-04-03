@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/docs.css" rel="stylesheet" />
+    <title>Kotlin</title>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Хедер-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html"> Главная </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../languages.html">
+                Список языков программирования
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Языки
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./html-lang.html"> HTML </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./css-lang.html"> CSS </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./kotlin-lang.html">
+                    Kotlin
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Содержимое-->
+    <div class="container-md">
+      <div class="row">
+        <h1>Язык программирования Kotlin</h1>
+      </div>
+      <div class="row row-cols-auto">
+        <div class="col">
+          <!--Ссылка с текстом-->
+          <a href="..\languages.html">Назад к списку</a>
+        </div>
+        <div class="col">
+          <!--Кнопка-->
+          <a class="btn btn-info" href="..\languages.html" role="button">
+            Назад
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <h2>Краткое описание</h2>
+      </div>
+      <div class="row">
+        <p>
+          Само свое название язык получил в честь острова Котлин, расположенного
+          в Финском заливе, недалеко от Санкт-Петербурга. Разработчики из
+          компании JetBrains, создававшие данный проект, в большинстве своем,
+          также имеют русские корни. Идея разработки, очевидно, состояла в
+          “рукотворной эволюции” для Java: сохранить совместимость с уже
+          существующими библиотеками Java, но оптимизировать процессы, расширить
+          функции, повысить безопасность кодирования и многое прочее.
+        </p>
+      </div>
+      <h2>Пример исходного кода</h2>
+      <pre><code>
+        fun main() {
+            val scope = "world"
+            println("Hello, $scope!")
+        }
+    </code></pre>
+    </div>
+  </body>
+</html>
